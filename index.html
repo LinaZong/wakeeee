@@ -5,21 +5,22 @@
     <title>唤醒</title>
 </head>
 <body>
-<a href="abcd">唤醒你的app</a>
+<a >唤醒app</a>
+<script>
 
-<!--<script>-->
+    $('a').click(function () {
 
-    <!--$('a').click(function () {-->
-        <!--var ifr = document.createElement('iframe');-->
-        <!--ifr.src = 'abcd';-->
-        <!--ifr.style.display = 'none';-->
-        <!--document.body.appendChild(ifr);-->
-        <!--setTimeout(function () {-->
-            <!--document.body.removeChild(ifr);-->
-        <!--},3000)-->
+        location.href = 'abcd';
+        setTimeout(function () {
+            location.href = 'http://www.baidu.com';
+        },250);
+        setTimeout(function () {
+            location.reload();
+        },1000);
 
-    <!--})-->
-<!--</script>-->
+
+    })
+</script>
 </body>
 
 </html>
