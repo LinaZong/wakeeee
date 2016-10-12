@@ -1,0 +1,15 @@
+{
+      "applinks": {
+          "apps": [],
+          "details": [
+              {
+                  "appID": “9JA89QQLNQ.com.apple.wwdc",
+                  "paths": [ "/wwdc/news/", "NOT /videos/wwdc/2010/*", "/videos/wwdc/201?/*"]
+              },
+              {
+                  "appID": "770191530@qq.com.testWake.com",
+                  "paths": [ "*" ]
+              }
+          ]
+      }
+  }
